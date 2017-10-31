@@ -4,13 +4,172 @@ body {
 	font-size : 14px;
 	background-color : black;
 	/* toe te voegen */
+	margin: 0px;
 }
 .all {
 	text-align : left;
 	width : 700px;
 	margin : 100px auto;
 	min-height : 600px;
-	background-image : url(bg.jpg);
+	background-image : url(images/bg.jpg);
 	border : 4px solid red;
 }
 
+#saw {
+	position: relative;
+	left: -350px;
+	top: 50px;
+}
+
+#saw:hover {
+	position: relative;
+	left: -340px;
+	top: 60px;
+}
+
+#title {
+	position: relative;
+	left: 25px;
+	top: -175px;
+}
+
+#hammer {
+	position: relative;
+	left: 0px;
+	top: -75px;
+}
+
+#screwdriver {
+	position: relative;
+	left: 350px;
+	top: -150px;
+}
+
+#pincers {
+	position: relative;
+	left: 560px;
+	top: 0px;
+}
+
+
+
+.stuffs {
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+#taskbar {
+	background-image: url(images/bar1.png);
+	padding: 5px;
+}
+
+
+
+.stuffs {
+	color: grey;
+	text-decoration: none;
+	font-weight: bold;
+
+}
+
+#taskbar:hover {
+	background-image: url(images/bar2.png);
+}
+
+#taskbar:hover>.stuffs {
+	color: black;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+#humanfactor {
+    position: relative;
+    display: inline-block;
+    color: blue;
+}
+
+#humanfactorstuffs {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 200px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    padding: 6px 8px;
+    z-index: 1;
+    border-color: darkblue;
+	border-style: solid;
+    border-width: 2px;
+    color: black;
+    border-radius: 10px;
+}
+
+#humanfactor:hover #humanfactorstuffs {
+    display: block;
+}
+
+a:link#factor {
+	color: darkblue;
+}
+
+a:visited#factor {
+    color: darkblue;
+}
+
+a:hover#factor {
+    color: darkblue;
+}
+
+a:active#factor {
+    color: darkblue;
+}
+
+.list {
+	border: 1px;
+}
+
+section {
+	background-color: rgba(255, 255, 255, 0.4);
+	padding: 7px;
+}
+
+p {
+	margin: 0px;
+	font-size: 13.6px;
+	padding-top: 0px; 
+}
+
+h1 {
+	margin-top: 5px;
+	margin-bottom: 5px;
+}
+
+ul {
+    display: none;
+    position: absolute;
+    left: -40px;
+    bottom: -70px;
+    list-style: none;
+}
+
+li {
+    background-color: white;
+    width: 100px;
+}
+
+li a {
+    text-decoration: none;
+    color: grey;
+    padding: 5px 5px;
+    display: block;
+    border: 1px solid black;
+}
+
+#toolbox {
+	position: relative;
+	right: 180px;
+	bottom: 30px;
+}
+
+#toolbox:hover ul {
+    display: block;
+}
