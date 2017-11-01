@@ -19,24 +19,42 @@ body {
 	position: relative;
 	left: -350px;
 	top: 50px;
+	transition: linear 0.15s
 }
 
 #saw:hover {
 	position: relative;
 	left: -340px;
 	top: 60px;
+	transition: linear 0.15s
 }
 
 #title {
 	position: relative;
 	left: 25px;
 	top: -175px;
+	transition: linear 0.15s
+}
+
+#title:hover {
+	position: relative;
+	left: 35px;
+	top: -165px;
+	transition: linear 0.15s
 }
 
 #hammer {
 	position: relative;
 	left: 0px;
 	top: -75px;
+	transition: linear 0.15s
+}
+
+#hammer:hover {
+	position: relative;
+	left: -10px;
+	top: -65px;
+	transition: linear 0.15s
 }
 
 #screwdriver {
@@ -45,13 +63,26 @@ body {
 	top: -150px;
 }
 
+#screwdriver:hover {
+	position: relative;
+	left: 340px;
+	top: -140px;
+	transition: linear 0.15s
+}
+
 #pincers {
 	position: relative;
 	left: 560px;
 	top: 0px;
+	transition: linear 0.15s
 }
 
-
+#pincers:hover {
+	position: relative;
+	left: 550px;
+	top: -10px;
+	transition: linear 0.15s
+}
 
 .stuffs {
 	margin-left: 20px;
@@ -172,4 +203,9 @@ li a {
 
 #toolbox:hover ul {
     display: block;
+}
+
+.lightup:hover {
+	color: black;
+	background-color: yellow;
 }
